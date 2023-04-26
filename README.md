@@ -1,3 +1,3 @@
 # CPUDesign_RISCV
-Project in summer term。  
+Project of summer term.  
 Basic CPU based on RISCV. 
