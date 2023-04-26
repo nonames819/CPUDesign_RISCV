@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpuclk_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpuclk_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4217499667fs"></ZoomStartTime>
+      <ZoomEndTime time="4636499668fs"></ZoomEndTime>
+      <Cursor1Time time="4245000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="248"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/cpuclk_sim/fpga_clk" type="logic">
+      <obj_property name="ElementShortName">fpga_clk</obj_property>
+      <obj_property name="ObjectShortName">fpga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/fpga_rst" type="logic">
+      <obj_property name="ElementShortName">fpga_rst</obj_property>
+      <obj_property name="ObjectShortName">fpga_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/cpu_clk" type="logic">
+      <obj_property name="ElementShortName">cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">cpu_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/cpu_rst" type="logic">
+      <obj_property name="ElementShortName">cpu_rst</obj_property>
+      <obj_property name="ObjectShortName">cpu_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/pc_from_if" type="array">
+      <obj_property name="ElementShortName">pc_from_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_from_if[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/pc_to_id" type="array">
+      <obj_property name="ElementShortName">pc_to_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_id_ex_reg/pc_from_id" type="array">
+      <obj_property name="ElementShortName">pc_from_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_from_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/pc_to_ex" type="array">
+      <obj_property name="ElementShortName">pc_to_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_ex_mem_reg/pc_from_ex" type="array">
+      <obj_property name="ElementShortName">pc_from_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_from_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/pc_to_mem" type="array">
+      <obj_property name="ElementShortName">pc_to_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_mem_wb_reg/pc_from_mem" type="array">
+      <obj_property name="ElementShortName">pc_from_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_from_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/pc_to_wb" type="array">
+      <obj_property name="ElementShortName">pc_to_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/switch" type="array">
+      <obj_property name="ElementShortName">switch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_id_ex_reg/data1_from_id" type="array">
+      <obj_property name="ElementShortName">data1_from_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1_from_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_id_ex_reg/data2_from_id" type="array">
+      <obj_property name="ElementShortName">data2_from_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2_from_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_id_ex_reg/imm_from_id" type="array">
+      <obj_property name="ElementShortName">imm_from_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_from_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_immgen/immsel_i" type="array">
+      <obj_property name="ElementShortName">immsel_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">immsel_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_ex_mem_reg/data2_from_ex" type="array">
+      <obj_property name="ElementShortName">data2_from_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2_from_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_alu/alusel_i" type="array">
+      <obj_property name="ElementShortName">alusel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alusel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_ex_mem_reg/outcome_from_ex" type="array">
+      <obj_property name="ElementShortName">outcome_from_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outcome_from_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_mem_wb_reg/outcome_from_mem" type="array">
+      <obj_property name="ElementShortName">outcome_from_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outcome_from_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_wb/wbsel_i" type="array">
+      <obj_property name="ElementShortName">wbsel_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wbsel_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuclk_sim/u_top/u_mini_rv/u_rf/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
